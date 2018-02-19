@@ -42,5 +42,11 @@
         padding: 13px 0;
       }
     }
+
+    &.active {
+      > a {
+        background-color: rgba(255,255,255,.04);
+      }
+    }
   }
 }
