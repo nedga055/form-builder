@@ -1,0 +1,46 @@
+#sidebar {
+  width: 268px;
+}
+
+.sidebar {
+  position: fixed;
+  background: $sidebar-bg;
+  height: calc(100% - 65px);
+  top: 70px;
+  -webkit-transition: all;
+  -o-transition: all;
+  transition: all;
+  -webkit-transition-duration: .3s;
+  transition-duration: .3s;
+  z-index: 10;
+  overflow-y: auto;
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+.main-menu {
+  list-style: none;
+  padding: 0;
+
+  > li {
+    > a {
+      padding: 14px 20px 14px 65px;
+      display: block;
+      position: relative;
+      color: rgba(255,255,255,.65);
+
+      &:hover {
+        background-color: rgba(255,255,255,.04);
+      }
+
+      .icon {
+        position: absolute;
+        left: 25px;
+        font-size: 20px;
+        top: 0;
+        width: 25px;
+        text-align: center;
+        padding: 13px 0;
+      }
+    }
+  }
+}

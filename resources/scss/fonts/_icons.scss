@@ -1,0 +1,104 @@
+@import "variables";
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('#{$icomoon-font-path}/icomoon.eot?pdcm43');
+  src:  url('#{$icomoon-font-path}/icomoon.eot?pdcm43#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/icomoon.ttf?pdcm43') format('truetype'),
+    url('#{$icomoon-font-path}/icomoon.woff?pdcm43') format('woff'),
+    url('#{$icomoon-font-path}/icomoon.svg?pdcm43#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-fc-"], [class*=" icon-fc-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-fc-add {
+  &:before {
+    content: $icon-fc-add; 
+  }
+}
+.icon-fc-add_box {
+  &:before {
+    content: $icon-fc-add_box; 
+  }
+}
+.icon-fc-poll {
+  &:before {
+    content: $icon-fc-poll; 
+  }
+}
+.icon-fc-laptop {
+  &:before {
+    content: $icon-fc-laptop; 
+  }
+}
+.icon-fc-done {
+  &:before {
+    content: $icon-fc-done; 
+  }
+}
+.icon-fc-event_note {
+  &:before {
+    content: $icon-fc-event_note; 
+  }
+}
+.icon-fc-library_books {
+  &:before {
+    content: $icon-fc-library_books; 
+  }
+}
+.icon-fc-menu {
+  &:before {
+    content: $icon-fc-menu; 
+  }
+}
+.icon-fc-person {
+  &:before {
+    content: $icon-fc-person; 
+  }
+}
+.icon-fc-personal_video {
+  &:before {
+    content: $icon-fc-personal_video; 
+  }
+}
+.icon-fc-textsms {
+  &:before {
+    content: $icon-fc-textsms; 
+  }
+}
+.icon-fc-trending_up {
+  &:before {
+    content: $icon-fc-trending_up; 
+  }
+}
+.icon-fc-view_list {
+  &:before {
+    content: $icon-fc-view_list; 
+  }
+}
+.icon-fc-view_quilt {
+  &:before {
+    content: $icon-fc-view_quilt; 
+  }
+}
+.icon-fc-widgets {
+  &:before {
+    content: $icon-fc-widgets; 
+  }
+}
+

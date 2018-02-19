@@ -1,0 +1,26 @@
+#Header {
+  background-color: $header-bg;
+  min-height: $header-height;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  user-select: none;
+  position: fixed;
+  z-index: 11;
+  width: 100%;
+  left: 0;
+  top: 0;
+  padding: 0 20px;
+}
+
+.header-inner {
+  padding: 26px 0;
+}
+
+.header-logo {
+  text-transform: uppercase;
+  float: left;
+  font-weight: 300;
+
+  > a {
+    padding: 7px 10px;
+  }
+}
