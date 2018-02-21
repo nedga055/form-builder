@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Input/> input rendered correctly 1`] = `
+<div
+  className="form-group"
+>
+  <div
+    className="fg-line"
+  >
+    <label
+      className="sr-only"
+      htmlFor="add-component"
+    >
+      Add a new component
+    </label>
+    <input
+      className="form-control"
+      disabled={false}
+      id="add-component"
+      name="add-component"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholder="Add a new component"
+      required={true}
+      type="text"
+    />
+  </div>
+</div>
+`;
