@@ -1,0 +1,32 @@
+.card {
+  position: relative;
+  margin-bottom: 30px;
+  background: rgb(43, 52, 58);
+
+  .card-header {
+    h2 {
+      margin: 0;
+      line-height: 100%;
+      font-size: 17px;
+      font-weight: 400;
+
+      small {
+        display: block;
+        margin-top: 5px;
+        line-height: 160%;
+        font-weight: 300;
+      }
+    }
+  }
+
+  .card-body {
+    &.card-padding {
+      padding: 25px 27px;
+    }
+  }
+}
+
+.card-header {
+  position: relative;
+  padding: 23px 25px;
+}
