@@ -2,11 +2,16 @@ import React, { Component } from 'react';
 import './assets/css/app.css';
 
 // Components
-import Header from './components/Header';
+import Header from './components/Header/Header';
 import Nav from './components/Navigation/Nav';
+import PageTitle from './components/PageTitle/PageTitle';
+
+// Views
+import FormBuilder from './views/FormBuilder';
 
 class App extends Component {
   render() {
+	  const currentPage = PAGES[0];
     return (
       <div className="App">
         <Header />
@@ -14,6 +19,10 @@ class App extends Component {
           <aside id="sidebar" className="sidebar">
             <Nav pages={PAGES} />
           </aside>
+            <section id="content">
+	            <PageTitle title={currentPage.title} />
+	            <FormBuilder />
+            </section>
         </section>
       </div>
     );
