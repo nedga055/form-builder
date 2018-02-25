@@ -6,6 +6,9 @@ import Header from './components/Header/Header';
 import Nav from './components/Navigation/Nav';
 import PageTitle from './components/PageTitle/PageTitle';
 
+// Bootstrap
+import { Grid, Row, Col } from 'react-bootstrap';
+
 // Views
 import FormBuilder from './views/FormBuilder';
 
@@ -13,18 +16,24 @@ class App extends Component {
   render() {
 	  const currentPage = PAGES[0];
     return (
-      <div className="App">
-        <Header />
-        <section id="main">
-          <aside id="sidebar" className="sidebar">
-            <Nav pages={PAGES} />
-          </aside>
-            <section id="content">
-	            <PageTitle title={currentPage.title} />
-	            <FormBuilder />
-            </section>
-        </section>
-      </div>
+		<div className="App">
+			<Header />
+			<section id="main">
+				<aside id="sidebar" className="sidebar">
+					<Nav pages={PAGES} />
+				</aside>
+				<section id="content">
+				    <Grid fluid={true}>
+				        <Row>
+				            <Col sm={12}>
+				                <PageTitle title={currentPage.title} />
+				                <FormBuilder />
+				            </Col>
+				        </Row>
+				    </Grid>
+				</section>
+			</section>
+		</div>
     );
   }
 }
