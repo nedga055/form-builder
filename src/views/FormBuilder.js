@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Card from '../components/Card/Card';
-import Input from '../components/FormElement/Input';
+import AddComponent from '../components/FormComponents/AddComponent';
 
 class FormBuilder extends Component {
 	render() {
@@ -11,7 +11,7 @@ class FormBuilder extends Component {
 		return (
 			<div className="form-builder">
 				<Card title={title} description={description}>
-					<Input id="add-component" name="add-component" placeholder="Add a new component" label="Add a new component" />
+					<AddComponent />
 				</Card>
 			</div>
 		)
