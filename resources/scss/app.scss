@@ -1,7 +1,14 @@
+// Variables
 @import 'config/variables';
 
+// Bootstrap
+@import "config/overrides";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Fonts
 @import 'fonts/icons';
 
+// CSS Base
 @import 'base';
 
 // Components

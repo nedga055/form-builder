@@ -1,0 +1,25 @@
+
+// Body
+$body-bg: $black3 !default;
+
+// Text
+$body-color: $white2 !default;
+
+// Forms
+$input-bg:                              transparent !default;
+//$input-disabled-bg:                     $gray-200 !default;
+
+$input-color:                           $white2 !default;
+$input-border-color:                    rgba(255,255,255,.06) !default;
+$input-border-width:                    1px !default;
+$input-box-shadow:                      none !default;
+
+$input-border-radius:                   0 !default;
+$input-border-radius-lg:                0 !default;
+$input-border-radius-sm:                0 !default;
+
+$input-focus-bg:                        transparent !default;
+$input-focus-border-color:              $white !default;
+$input-focus-color:                     $input-color !default;
+$input-focus-width:                     0 !default;
+$input-focus-box-shadow:                none !default;

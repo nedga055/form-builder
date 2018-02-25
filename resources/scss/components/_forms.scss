@@ -1,97 +1,98 @@
-.form-group {
-  margin-bottom: 25px;
-}
-
-.fg-line {
-  position: relative;
-  vertical-align: top
-}
-
-.fg-line:not(.form-group) {
-  display: inline-block;
-  width: 100%
-}
-
-.fg-line .form-control:disabled {
-  color: rgba(255,255,255,.3);
-  background: 0 0
-}
-
-.fg-line:not(.disabled):after,.fg-line:not(.readonly):after {
-  position: absolute;
-  z-index: 3;
-  bottom: 0;
-  left: 0;
-  height: 2px;
-  width: 100%;
-  content: "";
-  -webkit-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition: all;
-  -o-transition: all;
-  transition: all;
-  -webkit-transition-duration: .3s;
-  transition-duration: .3s
-}
-
-.fg-line:not([class*=has-]):after {
-  background: #D8DADA
-}
-
-.fg-line.readonly .form-control {
-  color: #9d9d9d;
-  background: 0 0
-}
-
-.fg-line.fg-toggled:after {
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1)
-}
-
-.fg-line-alt:not([class*=has-]):after {
-  background: #2196F3
-}
-
-input {
-  &:active,
-  &:focus {
-    outline: none;
-  }
-}
-
-.form-control, output {
-  font-size: 13px;
-  line-height: 1.42857143;
-  color: #D8DADA;
-  display: block;
-}
+//.form-group {
+//  margin-bottom: 25px;
+//}
+//
+//.fg-line {
+//  position: relative;
+//  vertical-align: top
+//}
+//
+//.fg-line:not(.form-group) {
+//  display: inline-block;
+//  width: 100%
+//}
+//
+//.fg-line .form-control:disabled {
+//  color: rgba(255,255,255,.3);
+//  background: 0 0
+//}
+//
+//.fg-line:not(.disabled):after,.fg-line:not(.readonly):after {
+//  position: absolute;
+//  z-index: 3;
+//  bottom: 0;
+//  left: 0;
+//  height: 2px;
+//  width: 100%;
+//  content: "";
+//  -webkit-transform: scale(0);
+//  -ms-transform: scale(0);
+//  -o-transform: scale(0);
+//  transform: scale(0);
+//  -webkit-transition: all;
+//  -o-transition: all;
+//  transition: all;
+//  -webkit-transition-duration: .3s;
+//  transition-duration: .3s
+//}
+//
+//.fg-line:not([class*=has-]):after {
+//  background: #D8DADA
+//}
+//
+//.fg-line.readonly .form-control {
+//  color: #9d9d9d;
+//  background: 0 0
+//}
+//
+//.fg-line.fg-toggled:after {
+//  -webkit-transform: scale(1);
+//  -ms-transform: scale(1);
+//  -o-transform: scale(1);
+//  transform: scale(1)
+//}
+//
+//.fg-line-alt:not([class*=has-]):after {
+//  background: #2196F3
+//}
+//
+//input {
+//  &:active,
+//  &:focus {
+//    outline: none;
+//  }
+//}
+//
+//.form-control, output {
+//  font-size: 13px;
+//  line-height: 1.42857143;
+//  color: #D8DADA;
+//  display: block;
+//}
+//
+//.form-control {
+//  width: 100%;
+//  height: 35px;
+//  padding: 6px 12px;
+//  background-color: transparent;
+//  border: 1px solid rgba(255,255,255,.06);
+//  border-radius: 0;
+//  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+//  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+//  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+//  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+//  resize: none;
+//  box-shadow: none!important;
+//
+//  &:focus {
+//    border-color: rgba(255,255,255,.06);
+//    outline: 0;
+//    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,255,255,.6);
+//  }
+//}
+//
 
 .form-control {
-  width: 100%;
-  height: 35px;
-  padding: 6px 12px;
-  background-color: transparent;
-  border: 1px solid rgba(255,255,255,.06);
-  border-radius: 0;
-  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
-  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-  resize: none;
-  box-shadow: none!important;
-
-  &:focus {
-    border-color: rgba(255,255,255,.06);
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(255,255,255,.6);
-  }
-}
-
-.form-control:not(.fc-alt) {
   border-left: 0;
   border-right: 0;
   border-top: 0;
